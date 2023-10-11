@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bytetriper.com.cn/sitemap.xml
