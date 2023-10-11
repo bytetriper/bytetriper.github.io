@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogs on Blowfish</title>
+    <link>https://bytetriper.com.cn/posts/</link>
+    <description>Recent content in blogs on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 BoYang Zheng</copyright>
+    <lastBuildDate>Wed, 11 Oct 2023 21:46:53 +0800</lastBuildDate><atom:link href="https://bytetriper.com.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>External</title>
+      <link>https://bytetriper.com.cn/posts/external/</link>
+      <pubDate>Wed, 11 Oct 2023 21:46:53 +0800</pubDate>
+      
+      <guid>https://bytetriper.com.cn/posts/external/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>My landing page</title>
+      <link>https://bytetriper.com.cn/posts/simple_layout/</link>
+      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bytetriper.com.cn/posts/simple_layout/</guid>
+      <description>This page content is now full-width.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
