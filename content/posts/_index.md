@@ -1,7 +1,7 @@
 ---
-title: "blogs"
-description: "Learn about some of my projects."
+title: "Posts"
+description: ""
 cascade:
   showReadingTime: false
 ---
-This section contains all my current projects.
+> A blog is a blog. —— bytetriper

@@ -11,34 +11,31 @@
 # ordered by weight from lowest to highest.
 
  [[main]]
-   name = "Post"
+   name = "Blog"
    pageRef = "posts"
    weight = 10
 
  [[main]]
-   name = "Parent"
-   weight = 20
+   name = "Personal Information"
+   pageRef = "resume"
+   weight = 1
 
  [[main]]
-   name = "example sub-menu 1"
-   parent = "Parent"
-   pageRef = "posts"
+   name = "CV"
+   parent = "Personal Information"
+   pageRef = "resume/CV"
    weight = 20 
+  
  [[main]]
-   name = "example sub-menu 2"
-   parent = "Parent"
-   pageRef = "posts"
-   weight = 20
+   name = "projects"
+   pageRef = "projects"
+   weight = 5
 
  [[subnavigation]]
-   name = "An interesting topic"
-   pageRef = "tags/interesting-topic"
-   weight = 10
- [[subnavigation]]
-   name = "My Awesome Category"
+   name = "Most Recent Projects"
    pre = "github"
-   pageRef = "categories/awesome"
-   weight = 20
+   url = "https://github.com/CaradryanLiang/ImprovedAdvDM"
+   weight = 10
 
  [[main]]
    name = "Categories"

@@ -1,23 +1,23 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "Diving into Vision🌊"
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/blowfish_logo.png"
-  secondaryLogo = "img/blowfish_logo_transparent.png"
+  logo = "imgs/AI_logo_light.png"
+  secondaryLogo = "imgs/AI_logo_dark.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
   [author]
     name = "BoYang Zheng"
-    image = "img/blowfish_logo.png"
-    headline = "For my personal CV/resume, please see"
-    bio = "For my personal CV/resume, please see "
+    image = "imgs/personal_transparent.png"
+    headline = "How we perceive the world?"
+    bio = "A dull student in SJTU, trying to understand the world."
     links = [
      { email = "bytetriper@sjtu.edu.cn" },
 #     { link = "https://link-to-some-website.com/" },
