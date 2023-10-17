@@ -8,8 +8,8 @@ title = "Diving into Vision🌊"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "imgs/AI_logo_light.png"
-  secondaryLogo = "imgs/AI_logo_dark.png"
+  logo = "imgs/darkbulb.png"
+  secondaryLogo = "imgs/lightbulb.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
