@@ -4,8 +4,8 @@
   
     
       <url>
-            <loc>https://bytetriper.com.cn/posts/cooking-abroad/%E5%A5%B6%E8%8C%B6%E7%AF%87/</loc>
-            <lastmod>2023-10-17T00:00:00+00:00</lastmod>
+            <loc>https://bytetriper.com.cn/posts/</loc>
+            <lastmod>2023-12-31T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -13,8 +13,8 @@
   
     
       <url>
-            <loc>https://bytetriper.com.cn/posts/</loc>
-            <lastmod>2023-10-17T00:00:00+00:00</lastmod>
+            <loc>https://bytetriper.com.cn/posts/2023-summary/</loc>
+            <lastmod>2023-12-31T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -23,6 +23,15 @@
     
       <url>
             <loc>https://bytetriper.com.cn/</loc>
+            <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://bytetriper.com.cn/posts/cooking-abroad/%E5%A5%B6%E8%8C%B6%E7%AF%87/</loc>
             <lastmod>2023-10-17T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
