@@ -31,7 +31,10 @@
    name = "projects"
    pageRef = "projects"
    weight = 5
-
+  [[main]]
+   name = "Academica"
+   url = '/academica'
+   weight = 5
  [[subnavigation]]
    name = "Most Recent Projects"
    pre = "github"
