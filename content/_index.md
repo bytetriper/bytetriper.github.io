@@ -3,10 +3,9 @@ title: "Welcome to Blowfish!"
 description: ""
 ---
 <!--make this elemet show on the left-->
-## Highly-motivated undergraduate in Computer Science and Technology with good foundations of math. Passionate about deep learning.
 
 {{<alert "star">}}
-**See my personal statement/CV/Resume at [HERE](resume/).**
+**See my academic homepage at [HERE](/academica).**
 {{</alert>}}
 
 <br/>

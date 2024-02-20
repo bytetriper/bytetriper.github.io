@@ -15,7 +15,8 @@
    pageRef = "posts"
    weight = 10
 
- [[main]]
+  
+  [[main]]
    name = "Personal Information"
    pageRef = "resume"
    weight = 1
@@ -25,7 +26,7 @@
    parent = "Personal Information"
    pageRef = "resume/CV"
    weight = 20 
-  
+
  [[main]]
    name = "projects"
    pageRef = "projects"
