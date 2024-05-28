@@ -46,6 +46,9 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>News</h2>
                 <p>
+                  [2024-5-1] Internship begins! I'm now an intern at NYU VisionX Lab, advised by <a href="https://www.sainingxie.com/"> Saining Xie</a>, doing research on generative models and MLLMs. I'll be on site at July, see you in New York!
+                </p>
+                <p>
                   [2023-9-25] Internship begins! I'm now an intern at Shanghai AI Lab, advised by <a href="https://xpixel.group/2010/01/20/chaodong.html"> Chao Dong</a>, doing research on MLLM and their possible applications on low-level vision tasks.
                 </p>
               </td>
@@ -62,7 +65,44 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+    <tr onmouseout="LM4LV_stop()" onmouseover="LM4LV_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='/projects/improveadvdm/feature.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function LM4LV_start() {
+            document.getElementById('smerf_image').style.opacity = "1";
+          }
 
+          function LM4LV_stop() {
+            document.getElementById('smerf_image').style.opacity = "0";
+          }
+          LM4LV_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2405.15734">
+          <span class="papertitle">LM4LV: A Frozen Large Language Model for Low-level Vision Tasks
+          </span>
+        </a>
+        <br>
+        <strong>Boyang Zheng</strong>,
+        <a href="https://www.jasongt.com/">Jinjin Gu</a>,
+        <a href="https://xpixel.group/2009/03/09/ShijunLi.html">Shijun Li</a>,
+        <a href="https://xpixel.group/2010/01/20/chaodong.html">Chao Dong</a>,
+        <br>
+        <em>arXiv</em>, 2024
+        <br>
+        <a href="https://www.youtube.com/watch?v=lYBUbBu4W08">code</a>
+        /
+        <a href="https://arxiv.org/abs/2405.15734">paper</a>        
+        <p></p>
+        <p>
+          A careful designed framework to let a frozen LLM to perform low-level vision tasks without any multi-modal data or prior. We also find that most current MLLMs(2024.5) with generation ability are BLIND to low-level features.
+        </p>
+      </td>
+    </tr>
 
     <tr onmouseout="ACE_stop()" onmouseover="ACE_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
