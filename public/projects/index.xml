@@ -18,5 +18,15 @@
       
     </item>
     
+    <item>
+      <title>LM4LV</title>
+      <link>https://bytetriper.com.cn/projects/lm4lv/</link>
+      <pubDate>Thu, 12 Oct 2023 20:38:43 +0800</pubDate>
+      
+      <guid>https://bytetriper.com.cn/projects/lm4lv/</guid>
+      <description>A Frozen Language Model for Low-level Vision Tasks</description>
+      
+    </item>
+    
   </channel>
 </rss>
