@@ -22,12 +22,11 @@
                 <p class="name" style="text-align: center;">
                   Boyang Zheng
                 </p>
-                <p>I'm currently a senior-year student, a member of Shanghai Jiao Tong University, ACM Honor Class. I'm currently an intern at NYU VisionX Group, advised by <a href="https://www.sainingxie.com/">Saining Xie</a>. 
+                <p>I'm currently a incoming PhD student at NYU Courant, advised by <a href="https://www.sainingxie.com/">Saining Xie</a>. I obtained my bachelor degree at Shanghai Jiao Tong University, ACM Honor Class. 
                 </p>
                 <p>
                   My current research interests include computer vision, self-supervised learning, and multi-modal learning. I'm also interested at generative models, which are incredibly popular nowadays. 
                   In the realm of academic, I have little interest in chasing the state-of-the-art unless I have to. Instead, I prefer to explore intersting ideas that help better understanding of this field or could possibly lead to new applications.
-                  Apart from pure academic pursuit, I also devote myself to use AI for social good, such as copyright protection, fairness and so on. In this regard, I'm also a member of <a href="https://mist-project.github.io/">MIST</a>, a project aiming to protect the copyrighted artworks.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:bytetriper@sjtu.edu.cn">Email</a> &nbsp;/&nbsp;
@@ -64,7 +63,44 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr onmouseout="RAE_stop()" onmouseover="RAE_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='/projects/lm4lv/feature.png' width=100% > 
+        </div>
+        <script type="text/javascript">
+          function RAE_start() {
+            document.getElementById('smerf_image').style.opacity = "1";
+          }
 
+          function RAE_stop() {
+            document.getElementById('smerf_image').style.opacity = "0";
+          }
+          RAE_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/">
+          <span class="papertitle">Diffusion Transformers with Representation Autoencoders
+          </span>
+        </a>
+        <br>
+        <strong>Boyang Zheng</strong>,
+        <a href="https://willisma.github.io/">Nanye Ma</a>,
+        <a href="https://tsb0601.github.io/">Shengbang Tong</a>,
+        <a href="https://www.sainingxie.com/">Saining Xie</a>,
+        <br>
+        <em>arXiv</em>, 2025
+        <br>
+        <a href="https://github.com/bytetriper/RAE">code</a>
+        /
+        <a href="https://arxiv.org/">paper</a>        
+        <p></p>
+        <p>
+          A class of autoencoders that utilize pretrained, frozen diffusion models as encoders and train ViT decoders on top. Training Diffusion Transformers in the latent space of RAE achieves strong performance and fast convergence on image generation tasks.
+        </p>
+      </td>
+    </tr>
     <tr onmouseout="LM4LV_stop()" onmouseover="LM4LV_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">

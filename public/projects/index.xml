@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Boyang Zheng 🌊</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>http://localhost:1314/projects/</link>
     <description>Recent content in Projects on Boyang Zheng 🌊</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 12 Oct 2025 20:38:43 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ImproveAdvDM</title>
-      <link>http://localhost:1313/projects/rae/</link>
+      <link>http://localhost:1314/projects/rae/</link>
       <pubDate>Sun, 12 Oct 2025 20:38:43 +0800</pubDate>
-      <guid>http://localhost:1313/projects/rae/</guid>
+      <guid>http://localhost:1314/projects/rae/</guid>
       <description>Diffusion Transformers with Representation Autoencoders</description>
     </item>
     <item>
       <title>ImproveAdvDM</title>
-      <link>http://localhost:1313/projects/improveadvdm/</link>
+      <link>http://localhost:1314/projects/improveadvdm/</link>
       <pubDate>Thu, 12 Oct 2023 20:38:43 +0800</pubDate>
-      <guid>http://localhost:1313/projects/improveadvdm/</guid>
+      <guid>http://localhost:1314/projects/improveadvdm/</guid>
       <description>Understanding and Improving Adversarial Attacks on Latent Diffusion Models</description>
     </item>
     <item>
       <title>LM4LV</title>
-      <link>http://localhost:1313/projects/lm4lv/</link>
+      <link>http://localhost:1314/projects/lm4lv/</link>
       <pubDate>Thu, 12 Oct 2023 20:38:43 +0800</pubDate>
-      <guid>http://localhost:1313/projects/lm4lv/</guid>
+      <guid>http://localhost:1314/projects/lm4lv/</guid>
       <description>A Frozen Language Model for Low-level Vision Tasks</description>
     </item>
   </channel>
