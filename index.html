@@ -46,6 +46,9 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>News</h2>
                 <p>
+                  [2026-5] Internship begins! I'm now a summer intern at <a href="https://amilabs.xyz/">AMI Labs</a>.
+                </p>
+                <p>
                   [2026-1] New blog post (with <a href="https://tsb0601.github.io/">Peter Tong</a>): <a href="https://cambrian-mllm.github.io/blog/tpu-training-experiments.html"><em>Lessons from Two Years of TPU Training in Academia</em></a> — sharing hard-earned TPU debugging wisdom!
                 </p>
                 <p>
@@ -119,9 +122,9 @@
       </td>
     </tr>
     <tr onmouseout="RAE_stop()" onmouseover="RAE_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
+      <td style="padding:20px;width:25%;vertical-align:top">
         <div class="one">
-          <img src='/projects/RAE/feature.png' width=100% > 
+          <img src='/projects/RAE/feature.png' width=100% >
         </div>
         <script type="text/javascript">
           function RAE_start() {
@@ -168,6 +171,19 @@
         </p>
         <p style="margin-left:2em;">
           Scales the RAE framework to large-scale, freeform text-to-image generation and shows RAE-based diffusion transformers converge faster and generalize better than FLUX-style VAEs across model sizes.
+        </p>
+        <p style="margin-left:2em;">
+          <a href="https://arxiv.org/abs/2605.18324v1"><strong>Improved Baselines with Representation Autoencoders</strong></a><br>
+          <a href="https://1jsingh.github.io/">Jaskirat Singh</a>, <strong>Boyang Zheng</strong>, <a href="https://www.zongzewu.com/">Zongze Wu</a>, <a href="https://scholar.google.com/citations?user=LW8ze_UAAAAJ&hl=en">Richard Zhang</a>, <a href="https://scholar.google.com/citations?user=B_FTboQAAAAJ&hl=en">Eli Shechtman</a>, <a href="https://www.sainingxie.com/">Saining Xie</a><br>
+          arXiv, 2026<br>
+          <a href="https://github.com/nanovisionx/RAEv2">code</a>
+          /
+          <a href="https://raev2.github.io/">website</a>
+          /
+          <a href="https://arxiv.org/abs/2605.18324v1">paper</a>
+        </p>
+        <p style="margin-left:2em;">
+          Improves RAE by aggregating the last k encoder layers and shows that RAE and REPA are complementary, enabling the same representation to serve as both encoder and target, achieving state-of-the-art results with faster convergence on ImageNet-256.
         </p>
       </td>
     </tr>
