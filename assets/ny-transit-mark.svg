@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 115.3">
+  <title>TeaBoard · New York City — NY 2026</title>
+  <rect width="500" height="115.3" fill="#1c1c1c"/>
+  <path d="M0 8h500" stroke="#fff" stroke-width="2"/>
+  <text x="14" y="53" fill="#fff" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-.6">TeaBoard · New York City</text>
+  <circle cx="33.5" cy="86.8" r="19.5" fill="#F6BC26"/>
+  <text x="33.5" y="86.8" dy=".35em" text-anchor="middle" fill="#101010" font-family="Helvetica, Arial, sans-serif" font-size="29" font-weight="700">N</text>
+  <circle cx="79.5" cy="86.8" r="19.5" fill="#F6BC26"/>
+  <text x="79.5" y="86.8" dy=".35em" text-anchor="middle" fill="#101010" font-family="Helvetica, Arial, sans-serif" font-size="29" font-weight="700">Y</text>
+  <circle cx="135.5" cy="86.8" r="19.5" fill="#009952"/>
+  <text x="135.5" y="86.8" dy=".35em" text-anchor="middle" fill="#fff" font-family="Helvetica, Arial, sans-serif" font-size="29" font-weight="700">2</text>
+  <circle cx="181.5" cy="86.8" r="19.5" fill="#009952"/>
+  <text x="181.5" y="86.8" dy=".35em" text-anchor="middle" fill="#fff" font-family="Helvetica, Arial, sans-serif" font-size="29" font-weight="700">0</text>
+  <circle cx="227.5" cy="86.8" r="19.5" fill="#D82233"/>
+  <text x="227.5" y="86.8" dy=".35em" text-anchor="middle" fill="#fff" font-family="Helvetica, Arial, sans-serif" font-size="29" font-weight="700">2</text>
+  <circle cx="273.5" cy="86.8" r="19.5" fill="#D82233"/>
+  <text x="273.5" y="86.8" dy=".35em" text-anchor="middle" fill="#fff" font-family="Helvetica, Arial, sans-serif" font-size="29" font-weight="700">6</text>
+</svg>

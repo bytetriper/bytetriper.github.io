@@ -1,2 +1,5 @@
 *.exe
 themes/
+.DS_Store
+dist/
+/.local-tools/

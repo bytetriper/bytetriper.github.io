@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Boyang Zheng's NY Milk Tea Board. Individual drinks, ranked from S+ to D.">
+  <title>NY Milk Tea Board · Boyang Zheng</title>
+  <link rel="stylesheet" href="../stylesheet.css">
+  <link rel="stylesheet" href="leaderboard.css">
+  <script src="leaderboard.js" defer></script>
+  <script src="layout-editor.js?v=station-controls-2" defer></script>
+</head>
+<body>
+  <div class="page tea-page">
+    <main>
+      <section class="tea-intro" aria-labelledby="tea-title">
+        <p class="eyebrow">Beyond research</p>
+        <h1 id="tea-title" class="station-sign" aria-label="TeaBoard · New York City — NY 2026">
+          <span class="station-title">TeaBoard · New York City</span>
+          <span class="station-routes" aria-hidden="true"><span class="station-route route-yellow">N</span><span class="station-route route-yellow">Y</span><span class="station-route route-green year-start">2</span><span class="station-route route-green">0</span><span class="station-route route-red">2</span><span class="station-route route-red">6</span></span>
+        </h1>
+        <details class="station-editor"><summary>调整站牌</summary><div id="station-controls"></div><button id="copy-station-layout" type="button">复制参数</button><span id="station-editor-status" role="status"></span></details>
+        <div class="rating-guides">
+        <p class="taste-guide-label">Personal taste rating</p>
+        <div class="tier-key" aria-label="Tiers from highest to lowest">
+          <span class="tier-sp">S+</span><span class="tier-s">S</span><span class="tier-a">A</span><span class="tier-b">B</span><span class="tier-c">C</span><span class="tier-d">D</span>
+        </div>
+      <section class="health-guide" aria-labelledby="health-guide-title">
+        <div class="health-guide-heading"><h2 id="health-guide-title">Health rating</h2><span>Sugar · g / 100 ml</span></div>
+        <div class="health-scale" aria-label="Personal sugar scale based on Singapore Nutri-Grade sugar thresholds, extended to F">
+          <div class="health-a"><strong>A</strong><span>≤ 1</span></div>
+          <div class="health-b"><strong>B</strong><span>&gt; 1–5</span></div>
+          <div class="health-c"><strong>C</strong><span>&gt; 5–10</span></div>
+          <div class="health-d"><strong>D</strong><span>&gt; 10–13</span></div>
+          <div class="health-e"><strong>E</strong><span>&gt; 13–15</span></div>
+          <div class="health-f"><strong>F</strong><span>&gt; 15</span></div>
+        </div>
+        <details><summary>SG scale + personal E/F extension</summary><p><a href="https://www.healthhub.sg/programmes/nutrition-hub/nutri-grade-mark/" target="_blank" rel="noopener noreferrer">Singapore Nutri-Grade</a> uses A–D; its sugar grade D covers everything above 10 g/100 ml. Here, D is split into D / E / F — a personal extension.</p><p>The bar shows sugar thresholds only, not the official Nutri-Grade mark. Official grading also considers saturated fat, takes the poorer grade, and excludes lactose and galactose from sugar. Non-sugar sweeteners prevent an A grade. Health ratings here are entered manually.</p></details>
+      </section>
+        </div>
+      </section>
+      <aside class="demo-notice" id="demo-notice" hidden><strong>Sample entries</strong><p>These shops, drinks, tiers, and notes are layout examples, not my actual rankings.</p></aside>
+      <div class="track-tabs" role="tablist" aria-label="Tea tracks">
+        <button type="button" role="tab" id="tab-milktea" data-track="milktea" aria-selected="true" aria-controls="leaderboard" tabindex="0">Milk Tea</button>
+        <button type="button" role="tab" id="tab-fruittea" data-track="fruittea" aria-selected="false" aria-controls="leaderboard" tabindex="-1">Fruit Tea</button>
+        <button type="button" role="tab" id="tab-hk-milktea" data-track="hk-milktea" aria-selected="false" aria-controls="leaderboard" tabindex="-1">Hong Kong–Style Milk Tea</button>
+        <button type="button" role="tab" id="tab-pure-tea" data-track="pure-tea" aria-selected="false" aria-controls="leaderboard" tabindex="-1">Pure Tea</button>
+        <button type="button" role="tab" id="tab-ready-to-drink-tea" data-track="ready-to-drink-tea" aria-selected="false" aria-controls="leaderboard" tabindex="-1">Ready-to-Drink Tea</button>
+      </div>
+      <section id="leaderboard" role="tabpanel" aria-labelledby="tab-milktea" tabindex="0">
+        <div class="ranking-heading"><button id="edit-layout" type="button" aria-expanded="false" aria-controls="layout-editor">调整布局</button></div>
+        <p id="load-status" role="status">Loading the tea list…</p>
+        <ul id="entries" class="tea-list"></ul>
+        <aside id="layout-editor" aria-label="布局调节" hidden>
+          <div class="editor-heading"><strong>布局调节 · 实时预览</strong><output id="row-measure"></output></div>
+          <p>拖动条目底部的紫色手柄调节高度，或拖动下方滑块。店标大小独立控制。</p>
+          <div id="layout-controls"></div>
+          <div class="editor-actions"><button id="copy-layout" type="button">复制参数</button><button id="download-layout" type="button">下载参数</button><button id="reset-layout" type="button">恢复默认</button></div>
+          <p id="editor-status" role="status">修改自动保存在当前浏览器；复制参数发给我即可应用到正式样式。</p>
+          <textarea id="layout-export" aria-label="布局参数" readonly hidden></textarea>
+        </aside>
+        <p id="empty-list" hidden>No drinks added yet.</p>
+        <noscript><p>Please enable JavaScript to view the leaderboard.</p></noscript>
+      </section>
+    </main>
+    <footer class="site-footer"><p>Boyang Zheng <span>· NY Milk Tea Board · All rights reserved.</span></p></footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,212 @@
+{
+  "sample": false,
+  "stores": {
+    "heytea": {
+      "name": "HEYTEA",
+      "logo": "images/heytea-logo.jpg",
+      "logoSource": "https://photos.prnasia.com/prnh/20200511/2800047-1LOGO?lang=0"
+    },
+    "tim-ho-wan": {
+      "name": "Tim Ho Wan 添好運",
+      "logo": "images/tim-ho-wan-logo.png",
+      "logoSource": "https://www.timhowanusa.com/"
+    },
+    "laankee": {
+      "name": "Laankee 澜记",
+      "logo": "images/laankee-logo.png",
+      "logoSource": "https://www.laankeejc.com/"
+    },
+    "cha-chan-tang": {
+      "name": "Cha Chan Tang 茶餐廳",
+      "logo": "images/cha-chan-tang-logo.png",
+      "logoSource": "https://chachantangrestaurant.weebly.com/"
+    },
+    "oriental-leaf": {
+      "name": "东方树叶",
+      "logo": "images/oriental-leaf-logo.png",
+      "logoSource": "https://www.nongfuspring.com/mobile/goods/logos.html",
+      "logoAlt": "东方树叶品牌标志"
+    },
+    "master-kong": {
+      "name": "康师傅",
+      "logo": "images/master-kong-logo.jpg",
+      "logoAlt": "康师傅品牌标志",
+      "logoSource": "https://logo9.net/works/8104.html"
+    }
+  },
+  "entries": [
+    {
+      "id": "heytea-black-milk-tea",
+      "store": "heytea",
+      "drink": "Black milk tea",
+      "tier": "A",
+      "order": "Minimal sugar · Less/normal ice",
+      "notes": null,
+      "image": "images/heytea-black-milk-tea.jpg",
+      "imageAlt": "HEYTEA Black milk tea — menu photo",
+      "location": {
+        "label": "HEYTEA",
+        "url": "https://www.google.com/maps/search/?api=1&query=HEYTEA"
+      },
+      "price": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "track": "milktea",
+      "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/747258380ebad737443da364c7c81618/d03e52b3c8af19d8fa8222e23efd9cfa.jpeg",
+      "imageSource": "https://postmates.com/store/heytea-wintergreen-plaza/PTMz21lMUyeQ-yqDJPv6Ng/44c62b21-94a8-5de3-9103-3327115472a6/53917776-c9b5-591a-ae9a-8abafa48247f/969f3345-8103-5c24-843e-6732699a4462",
+      "healthRating": "C"
+    },
+    {
+      "id": "heytea-longjing-milk-tea",
+      "store": "heytea",
+      "drink": "Longjing Milk Tea",
+      "track": "milktea",
+      "tier": "A",
+      "order": "Standard · Light Ice · Light Sugar",
+      "notes": null,
+      "image": "images/heytea-longjing-milk-tea.jpg",
+      "imageAlt": "HEYTEA Longjing Milk Tea — menu photo",
+      "price": {
+        "amount": 7.99,
+        "currency": "USD"
+      },
+      "priceBasis": "Uber Eats receipt item price, before tax, delivery fees, tips, and order-level discounts",
+      "location": {
+        "label": "HEYTEA NYU",
+        "url": "https://www.google.com/maps/search/?api=1&query=HEYTEA+NYU+11+Waverly+Pl%2C+New+York%2C+NY+10003"
+      },
+      "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/dc2e85781ab4ea1035f00ed9a686ec2a/d03e52b3c8af19d8fa8222e23efd9cfa.jpeg",
+      "imageSource": "https://postmates.com/store/heytea-wintergreen-plaza/PTMz21lMUyeQ-yqDJPv6Ng/44c62b21-94a8-5de3-9103-3327115472a6/53917776-c9b5-591a-ae9a-8abafa48247f/969f3345-8103-5c24-843e-6732699a4462",
+      "healthRating": "C"
+    },
+    {
+      "id": "heytea-pistachio-cloud-jasmine-coconut",
+      "store": "heytea",
+      "drink": "Pistachio Cloud Jasmine Coconut",
+      "track": "milktea",
+      "tier": "C",
+      "order": "Standard · Less Ice · Less Sugar",
+      "notes": null,
+      "image": "images/heytea-pistachio-cloud-jasmine-coconut.jpg",
+      "imageAlt": "HEYTEA Pistachio Cloud Jasmine Coconut — menu photo",
+      "price": {
+        "amount": 9.99,
+        "currency": "USD"
+      },
+      "priceBasis": "Uber Eats receipt item price, before tax, delivery fees, tips, and order-level discounts",
+      "location": {
+        "label": "HEYTEA NYU",
+        "url": "https://www.google.com/maps/search/?api=1&query=HEYTEA+NYU+11+Waverly+Pl%2C+New+York%2C+NY+10003"
+      },
+      "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/bfd986dff151551394d13d83a2ee3cdb/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+      "imageSource": "https://postmates.com/store/heytea-wintergreen-plaza/PTMz21lMUyeQ-yqDJPv6Ng/44c62b21-94a8-5de3-9103-3327115472a6/53917776-c9b5-591a-ae9a-8abafa48247f/969f3345-8103-5c24-843e-6732699a4462",
+      "healthRating": "D"
+    },
+    {
+      "id": "tim-ho-wan-hk-milk-tea",
+      "store": "tim-ho-wan",
+      "drink": "HK Milk Tea",
+      "track": "hk-milktea",
+      "tier": "B",
+      "order": null,
+      "notes": null,
+      "image": null,
+      "imageAlt": null,
+      "price": {
+        "amount": 8.5,
+        "currency": "USD"
+      },
+      "priceBasis": "Uber Eats receipt item price, before tax, delivery fees, tips, and order-level discounts",
+      "location": {
+        "label": "Tim Ho Wan East Village",
+        "url": "https://www.google.com/maps/search/?api=1&query=Tim+Ho+Wan+East+Village+70+E+10th+St%2C+New+York%2C+NY+10003"
+      },
+      "healthRating": "D"
+    },
+    {
+      "id": "laankee-silk-stocking-milk-tea",
+      "store": "laankee",
+      "drink": "D101 Hong Kong Silk Stocking Milk Tea 港岛经典/丝袜奶茶",
+      "track": "hk-milktea",
+      "tier": "B",
+      "order": "Less Ice · Light Sugar 30%",
+      "notes": null,
+      "image": "images/laankee-silk-stocking-milk-tea.webp",
+      "imageAlt": "Laankee 澜记 D101 Hong Kong Silk Stocking Milk Tea 港岛经典/丝袜奶茶 — menu photo",
+      "price": {
+        "amount": 7.19,
+        "currency": "USD"
+      },
+      "priceBasis": "Uber Eats receipt item price, before tax, delivery fees, tips, and order-level discounts",
+      "location": {
+        "label": "Laankee 澜记 TeaShop",
+        "url": "https://www.google.com/maps/search/?api=1&query=Laankee+%E6%BE%9C%E8%AE%B0+TeaShop+364+Grove+St%2C+Jersey+City%2C+NJ+07302"
+      },
+      "imageUrl": "https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC9pbWFnZS1wcm9jL3Byb2Nlc3NlZF9pbWFnZXMvOTZkYTZmZDcwNDc3NGU1MmNkZDdkOGRhNzIyNzFhZjIvZDAzZTUyYjNjOGFmMTlkOGZhODIyMmUyM2VmZDljZmEuanBlZw==",
+      "imageSource": "https://www.ubereats.com/store/laankee-%E6%BE%9C%E8%AE%B0-teashop/DzIhQu57R-qUuOpffMRJqg",
+      "healthRating": "D"
+    },
+    {
+      "id": "cha-chan-tang-hong-kong-style-tea",
+      "store": "cha-chan-tang",
+      "drink": "Hong Kong Style Tea",
+      "track": "hk-milktea",
+      "tier": "B",
+      "order": "Cold",
+      "notes": null,
+      "image": null,
+      "imageAlt": null,
+      "price": {
+        "amount": 6.5,
+        "currency": "USD"
+      },
+      "priceBasis": "Uber Eats receipt item price, before tax, delivery fees, tips, and order-level discounts",
+      "location": {
+        "label": "Cha Chan Tang",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cha+Chan+Tang+41+Mott+St%2C+Manhattan%2C+NY+10013"
+      },
+      "healthRating": "D"
+    },
+    {
+      "id": "oriental-leaf-oolong-500ml",
+      "store": "oriental-leaf",
+      "drink": "乌龙茶",
+      "track": "ready-to-drink-tea",
+      "tier": null,
+      "healthRating": "A",
+      "order": "500 ml",
+      "notes": null,
+      "image": "images/oriental-leaf-oolong-500ml.webp",
+      "location": null,
+      "price": {
+        "amount": 3,
+        "currency": "USD"
+      },
+      "priceBasis": "User-provided price for one 500 ml bottle",
+      "imageAlt": "东方树叶乌龙茶 500 ml 包装",
+      "imageSource": "https://www.chaoji.ca/zh/product/2576/dong-fang-shu-ye-oolong-tea",
+      "imageUrl": "https://cdn.superwafer.com/optimized/webp/detail/products/June2020/0DL8UW68cnCoM3v4tAus.webp"
+    },
+    {
+      "id": "master-kong-iced-black-tea-500ml",
+      "store": "master-kong",
+      "drink": "冰红茶",
+      "track": "ready-to-drink-tea",
+      "tier": null,
+      "healthRating": "E",
+      "order": "500 ml",
+      "notes": null,
+      "image": "images/master-kong-iced-tea-meme.png",
+      "location": null,
+      "price": {
+        "amount": 3,
+        "currency": "USD"
+      },
+      "priceBasis": "User-provided price for one 500 ml bottle",
+      "imageAlt": "科比冰红茶梗图（非真实包装）",
+      "imageSource": "https://www.duotegame.com/article/183451.html",
+      "imageUrl": "https://img.duotegame.com/article/contents/2024/03/12/20240312112116123.png"
+    }
+  ]
+}
