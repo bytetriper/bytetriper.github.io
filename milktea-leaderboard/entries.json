@@ -32,6 +32,11 @@
       "logo": "images/master-kong-logo.jpg",
       "logoAlt": "康师傅品牌标志",
       "logoSource": "https://logo9.net/works/8104.html"
+    },
+    "sing-nyc": {
+      "name": "SING NYC",
+      "logo": "images/sing-nyc-logo.png",
+      "logoSource": "https://www.singnyc.online/"
     }
   },
   "entries": [
@@ -39,7 +44,7 @@
       "id": "heytea-black-milk-tea",
       "store": "heytea",
       "drink": "Black milk tea",
-      "tier": "A",
+      "tier": "S",
       "order": "Minimal sugar · Less/normal ice",
       "notes": null,
       "image": "images/heytea-black-milk-tea.jpg",
@@ -62,7 +67,7 @@
       "store": "heytea",
       "drink": "Longjing Milk Tea",
       "track": "milktea",
-      "tier": "A",
+      "tier": "S",
       "order": "Standard · Light Ice · Light Sugar",
       "notes": null,
       "image": "images/heytea-longjing-milk-tea.jpg",
@@ -85,7 +90,7 @@
       "store": "heytea",
       "drink": "Pistachio Cloud Jasmine Coconut",
       "track": "milktea",
-      "tier": "C",
+      "tier": "B",
       "order": "Standard · Less Ice · Less Sugar",
       "notes": null,
       "image": "images/heytea-pistachio-cloud-jasmine-coconut.jpg",
@@ -108,7 +113,7 @@
       "store": "tim-ho-wan",
       "drink": "HK Milk Tea",
       "track": "hk-milktea",
-      "tier": "B",
+      "tier": "A",
       "order": null,
       "notes": null,
       "image": null,
@@ -129,7 +134,7 @@
       "store": "laankee",
       "drink": "D101 Hong Kong Silk Stocking Milk Tea 港岛经典/丝袜奶茶",
       "track": "hk-milktea",
-      "tier": "B",
+      "tier": "A",
       "order": "Less Ice · Light Sugar 30%",
       "notes": null,
       "image": "images/laankee-silk-stocking-milk-tea.webp",
@@ -152,7 +157,7 @@
       "store": "cha-chan-tang",
       "drink": "Hong Kong Style Tea",
       "track": "hk-milktea",
-      "tier": "B",
+      "tier": "A",
       "order": "Cold",
       "notes": null,
       "image": null,
@@ -207,6 +212,27 @@
       "imageAlt": "科比冰红茶梗图（非真实包装）",
       "imageSource": "https://www.duotegame.com/article/183451.html",
       "imageUrl": "https://img.duotegame.com/article/contents/2024/03/12/20240312112116123.png"
+    },
+    {
+      "id": "sing-nyc-cold-hk-milk-tea",
+      "store": "sing-nyc",
+      "drink": "Cold HK Milk Tea 冻港式奶茶",
+      "track": "hk-milktea",
+      "tier": "B",
+      "healthRating": "D",
+      "order": "Cold",
+      "notes": null,
+      "image": null,
+      "price": {
+        "amount": 6.89,
+        "currency": "USD"
+      },
+      "priceBasis": "Uber Eats standalone menu price checked 2026-09-10, before taxes and fees; ordered as part of a combo.",
+      "location": {
+        "label": "SING NYC · 182 Bleecker Street",
+        "url": "https://www.google.com/maps/search/?api=1&query=SING+NYC+182+Bleecker+Street+New+York+NY+10012"
+      },
+      "priceSource": "https://www.ubereats.com/store/sing-nyc-cha-chaan-tengs/8yx6XUmnXoKXgebW8cP7Lg"
     }
   ]
 }
